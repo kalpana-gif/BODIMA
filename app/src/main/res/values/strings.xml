@@ -9,7 +9,7 @@
 <!--    Registration Strings-->
 
     <string name="name">Name :</string>
-    <string name="RegHeader">Register Here!!!</string>
+    <string name="RegHeader">Register Here!</string>
     <string name="age">Age :</string>
     <string name="address">Address :</string>
     <string name="mail">E-mail :</string>
