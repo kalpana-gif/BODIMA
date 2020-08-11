@@ -2,7 +2,7 @@
     <string name="app_name">Bodima</string>
     <string name="loginbtn">Login</string>
     <string name="topHeader">Log Here!</string>
-    <string name="emailhint">Enter Your Email</string>
-    <string name="pwdhint">Enter Your Password</string>
+    <string name="emailhint">Enter Your Email..</string>
+    <string name="pwdhint">Enter Your Password..</string>
     <string name="signup">Sing Up Here</string>
 </resources>
