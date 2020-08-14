@@ -39,4 +39,9 @@
     <string name="address_hint">Enter address here…</string>
     <string name="btnImg">Add Images</string>
     <string name="btnLocation">Add Location</string>
+    <string name="btnSave">Save</string>
+
+    <!--Edit House Strings-->
+    <string name="btnUpdate">Update Details</string>
+
 </resources>
