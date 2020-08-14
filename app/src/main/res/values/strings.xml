@@ -42,6 +42,7 @@
     <string name="btnSave">Save</string>
 
     <!--Edit House Strings-->
+    <string name="updateLocation">Edit Location</string>
     <string name="btnUpdate">Update Details</string>
 
 </resources>
