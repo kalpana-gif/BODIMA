@@ -34,5 +34,8 @@
     <string name="lending">Lending</string>
     <string name="other">Other</string>
 
+    <!--    userprofile-->
+    <string name="editprof">Edit Profile</string>
+    <string name="userprofile">User Profile</string>
 
 </resources>
