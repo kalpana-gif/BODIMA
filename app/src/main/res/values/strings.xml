@@ -8,13 +8,11 @@
 
     <!--    Registration Strings-->
 
-    <string name="name">Name :</string>
     <string name="RegHeader">Register Here!</string>
-    <string name="age">Age :</string>
     <string name="address">Address :</string>
     <string name="mail">E-mail :</string>
     <string name="phone">Phone :</string>
-    <string name="loaction">Current Loctation </string>
+    <string name="loaction">Current Location </string>
 
     <!--Add House Strings-->
     <string name="addHouse">Add House</string>
@@ -45,4 +43,28 @@
     <string name="updateLocation">Edit Location</string>
     <string name="btnUpdate">Update Details</string>
 
+    <!--    Expencedashboard-->
+    <string name="amount">Enter Amount</string>
+    <string name="extitle">Personal Expenses Management</string>
+    <string name="enteramount">Enter Amount</string>
+    <string name="addicon">+</string>
+    <string name="minusicon">-</string>
+    <string name="currentbalance">Current Balance</string>
+    <string name="food">Food</string>
+    <string name="transport">Transport</string>
+    <string name="recharge">Recharge</string>
+    <string name="cloths">Clothes</string>
+    <string name="rent">Rent</string>
+    <string name="bill">Bill</string>
+    <string name="salary">Sallary</string>
+    <string name="interst">Bank Intrest</string>
+    <string name="Loan">Loan</string>
+    <string name="lending">Lending</string>
+    <string name="other">Other</string>
+
+    <!--    userprofile-->
+    <string name="editprof">Edit Profile</string>
+    <string name="userprofile">User Profile</string>
+    <string name="password">password :</string>
+    <string name="confirmpassword">Confirm password :</string>
 </resources>

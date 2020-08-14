@@ -11,6 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Home" />
         <activity android:name=".Registration" />
+        <activity android:name=".ExpenseDashBoard"></activity>
+        <activity android:name=".ExpenseHistory" />
+        <activity android:name=".UserProfile" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
