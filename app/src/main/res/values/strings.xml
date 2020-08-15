@@ -81,5 +81,6 @@
     <string name="rev2">Good service. Thank you!</string>
     <string name="rev3">calm and peaceful place. better to learners.</string>
     <string name="hint1">Enter Your Review Here</string>
+    <string name="revRlt">Delete</string>
 
 </resources>
