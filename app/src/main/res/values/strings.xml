@@ -65,6 +65,8 @@
     <string name="nav_ads">Ads</string>
     <string name="nav_expense">Expense Tracker</string>
     <string name="nav_lgout">Logout</string>
+    <string name="nav_draw_open">Open navigation drawer</string>
+    <string name="nav_draw_close">Close navigation drawer</string>
 
     <!--    Expencedashboard-->
     <string name="amount">Enter Amount</string>
@@ -106,12 +108,12 @@
     <string name="hint1">Enter Your Review Here</string>
     <string name="revRlt">Delete</string>
 
-<!--    trasaction history-->
+    <!--    trasaction history-->
 
     <string name="history">Expences History</string>
     <string name="date">Date :</string>
     <string name="historyamount">Amount :</string>
-    D<string name="delete">Delete</string>
+    <string name="delete">Delete</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -123,5 +125,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="profile">profile</string>
+    <string name="buyer">Buyer</string>
 
 </resources>
