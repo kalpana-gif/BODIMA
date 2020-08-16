@@ -83,4 +83,20 @@
     <string name="userprofile">User Profile</string>
     <string name="password">password :</string>
     <string name="confirmpassword">Confirm password :</string>
+
+    <!--    RatingsAndReviews-->
+    <string name="place">The Place Name</string>
+    <string name="allRev">All Reviews</string>
+    <string name="name1">John</string>
+    <string name="name2">Pitty</string>
+    <string name="name3">Billy</string>
+    <string name="rate">4.0</string>
+    <string name="warning">*please note that your reviews are visible for all users</string>
+    <string name="button">POST</string>
+    <string name="rev1">This is a good place to live</string>
+    <string name="rev2">Good service. Thank you!</string>
+    <string name="rev3">calm and peaceful place. better to learners.</string>
+    <string name="hint1">Enter Your Review Here</string>
+    <string name="revRlt">Delete</string>
+
 </resources>
