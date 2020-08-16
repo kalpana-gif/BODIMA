@@ -10,43 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".RatingsAndReviews"></activity>
-        <activity android:name=".AddReview">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".AddReview"/>
         <activity android:name=".Home" />
         <activity android:name=".Registration" />
         <activity android:name=".ExpenseDashBoard" />
         <activity android:name=".ExpenseHistory" />
         <activity android:name=".UserProfile" />
         <activity android:name=".LoginActivity">
-
-            <!--
-            intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter
-            -->
+            </intent-filter>
         </activity>
+        <activity android:name=".AddHouse" android:parentActivityName=".Home" />
+        <activity android:name=".EditHouseDetails"  android:parentActivityName=".Home"/>
+        <activity android:name=".HouseDetails" android:parentActivityName=".Home"/>
         <activity
             android:name=".AddHouse"
             android:parentActivityName=".Home" />
         <activity
             android:name=".EditHouseDetails"
-            android:parentActivityName=".Home">
-
-            <!--
-            intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter
-            -->
-        </activity>
+            android:parentActivityName=".Home"/>
     </application>
 
 </manifest>

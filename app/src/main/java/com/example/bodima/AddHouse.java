@@ -2,6 +2,7 @@ package com.example.bodima;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
@@ -15,14 +16,12 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class AddHouse extends AppCompatActivity {
-    private Calendar calendar;
-    private SimpleDateFormat dateFormat;
-    private String curdate;
 
     TextView username, date;
     EditText desc, amount, beds, baths, phone, city, address;
     Button addImg, addLoc, save;
 
+    @SuppressLint("SimpleDateFormat")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,9 +44,9 @@ public class AddHouse extends AppCompatActivity {
         save = (Button)findViewById(R.id.btnSave);
 
         //get current date
-        calendar = Calendar.getInstance();
-        dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
-        curdate = dateFormat.format(calendar.getTime());
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
+        String curdate = dateFormat.format(calendar.getTime());
         date.setText(curdate);
 
         save.setOnClickListener(new View.OnClickListener() {
