@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/category_bg"
+    tools:context=".HouseForm">
+
+    <Button
+        android:id="@+id/post_btn"
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:background="@color/antiquewhite"
+        android:text="@string/post_btn"
+        android:textColor="@color/darkred"
+        android:textColorHint="#6A4F4F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <TextView
+        android:id="@+id/postAd_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/postAd_tag"
+        android:textColor="@color/indigo"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+
+    <Button
+        android:id="@+id/_photo_btn"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:text="@string/add_photo_btn"
+        android:textColor="@color/brown"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/antiquewhite"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="117dp"
+        android:layout_height="49dp"
+        android:text="@string/description"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="106dp"
+        android:layout_height="32dp"
+        android:text="@string/category"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="106dp"
+        android:layout_height="30dp"
+        android:text="@string/location"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <TextView
+        android:id="@+id/contact_details"
+        android:layout_width="180dp"
+        android:layout_height="31dp"
+        android:text="@string/contact_details"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="108dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/price"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="101dp"
+        android:layout_height="32dp"
+        android:text="@string/name"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="75dp"
+        android:layout_height="28dp"
+        android:text="@string/phone"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/category_id"
+        android:layout_width="243dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/house"
+        app:layout_constraintBaseline_toBaselineOf="@+id/category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/category" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/location_id"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/colombo"
+        app:layout_constraintBaseline_toBaselineOf="@+id/location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/location" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/description_id"
+        android:layout_width="250dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/description_hint"
+        app:layout_constraintBaseline_toBaselineOf="@+id/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/description" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/price_id"
+        android:layout_width="243dp"
+        android:layout_height="39dp"
+        android:hint="@string/price_hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phone_id"
+        android:layout_width="256dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toEndOf="@+id/phone" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name_id"
+        android:layout_width="255dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toEndOf="@+id/name" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <TextView
+        android:id="@+id/beds"
+        android:layout_width="101dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="8dp"
+        android:drawableRight="@drawable/ic_baseline_airline_seat_individual_suite_24"
+        android:drawablePadding="@dimen/cardview_compat_inset_shadow"
+        android:text="@string/beds"
+        android:textColor="#191818"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <TextView
+        android:id="@+id/baths"
+        android:layout_width="101dp"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/ic_baseline_bathtub_24"
+        android:text="@string/baths"
+        android:textColor="#191818"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <Spinner
+        android:id="@+id/bath_id"
+        android:layout_width="224dp"
+        android:layout_height="40dp"
+        android:entries="@array/bath_id"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <Spinner
+        android:id="@+id/bed_id"
+        android:layout_width="221dp"
+        android:layout_height="36dp"
+        android:entries="@array/bed_id"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

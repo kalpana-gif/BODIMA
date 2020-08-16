@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/category_bg"
+    tools:context=".LandForm">
+
+
+    <Button
+        android:id="@+id/post_btn"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@color/antiquewhite"
+        android:text="@string/post_btn"
+        android:textColor="@color/darkred"
+        android:textColorHint="#6A4F4F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
+
+    <TextView
+        android:id="@+id/postAd_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Post Your Advertisment"
+        android:textColor="@color/indigo"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+
+    <Button
+        android:id="@+id/_photo_btn"
+        android:layout_width="162dp"
+        android:layout_height="42dp"
+        android:text="@string/add_photo_btn"
+        android:textColor="@color/brown"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/antiquewhite"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="117dp"
+        android:layout_height="42dp"
+        android:text="@string/description"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="106dp"
+        android:layout_height="32dp"
+        android:text="@string/category"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="106dp"
+        android:layout_height="30dp"
+        android:text="@string/location"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <TextView
+        android:id="@+id/landSize"
+        android:layout_width="122dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/landSize"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="110dp"
+        android:layout_height="41dp"
+        android:text="@string/title"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <TextView
+        android:id="@+id/contact_details"
+        android:layout_width="180dp"
+        android:layout_height="31dp"
+        android:text="@string/contact_details"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="108dp"
+        android:layout_height="39dp"
+        android:text="@string/price"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="101dp"
+        android:layout_height="32dp"
+        android:text="@string/name"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="75dp"
+        android:layout_height="28dp"
+        android:text="@string/phone"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/category_id"
+        android:layout_width="243dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/land"
+        app:layout_constraintBaseline_toBaselineOf="@+id/category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/category" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/location_id"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/colombo"
+        app:layout_constraintBaseline_toBaselineOf="@+id/location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/location" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/landSize_id"
+        android:layout_width="249dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/landSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toEndOf="@+id/landSize" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/title_id"
+        android:layout_width="246dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/title" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/description_id"
+        android:layout_width="256dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/description_hint"
+        app:layout_constraintBaseline_toBaselineOf="@+id/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/description" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/price_id"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/price_hint"
+        app:layout_constraintBaseline_toBaselineOf="@+id/price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toEndOf="@+id/price" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phone_id"
+        android:layout_width="256dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toEndOf="@+id/phone" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name_id"
+        android:layout_width="255dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toEndOf="@+id/name" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
