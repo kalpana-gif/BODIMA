@@ -20,10 +20,12 @@
     <string name="username">Useruser02155</string>
     <string name="datelabel">Date</string>
     <string name="currentdate">20 Aug 2020</string>
+    <string name="title_label">Title</string>
+    <string name="title">max 20 characters</string>
     <string name="description_label">Description</string>
-    <string name="desc_txt">Write a description here…</string>
+    <string name="desc_txt">Write a description here… (max 200 characters)</string>
     <string name="amount_rs">Rs.</string>
-    <string name="amount_txt">amount</string>
+    <string name="amount_txt">0,000</string>
     <string name="amount_month">/month</string>
     <string name="beds_label">Beds</string>
     <string name="beds_num">0</string>
@@ -42,6 +44,20 @@
     <!--Edit House Strings-->
     <string name="updateLocation">Edit Location</string>
     <string name="btnUpdate">Update Details</string>
+
+    <!--HouseDetails String-->
+    <string name="imgCount">3/3</string>
+    <string name="postDate">posted on 20th August 2020</string>
+    <string name="price">Rs. 0, 000 / month</string>
+    <string name="postUser">for rent by Useruser02155</string>
+    <string name="details">Room includes basic furniture such as a bed, table and chair(s). Also a kitchen area is available. Bathroom/Toilet is separate but located right next to the room.</string>
+    <string name="beds_no">2</string>
+    <string name="baths_no">2</string>
+    <string name="addressFull">No.000, Lorem Ipsum, dolor sit amet.</string>
+    <string name="city_name">Colombo</string>
+    <string name="title_display">Room for Rent</string>
+    <string name="call_now">Call Now</string>
+    <string name="btn_reviews">Ratings &amp; Reviews</string>
 
     <!--    Expencedashboard-->
     <string name="amount">Enter Amount</string>

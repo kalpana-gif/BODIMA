@@ -13,30 +13,28 @@
         <activity android:name=".Registration" />
         <activity android:name=".ExpenseDashBoard" />
         <activity android:name=".ExpenseHistory">
-
             <!--
             intent-filter>
+        <activity android:name=".RatingsAndReviews"/>
+        <activity android:name=".AddReview"/>
+        <activity android:name=".Home" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter
-            -->
+            </intent-filter>
         </activity>
+        <activity android:name=".AddHouse" android:parentActivityName=".Home" />
+        <activity android:name=".EditHouseDetails"  android:parentActivityName=".Home"/>
+        <activity android:name=".HouseDetails" android:parentActivityName=".Home"/>
         <activity
             android:name=".AddHouse"
             android:parentActivityName=".Home" />
         <activity
             android:name=".EditHouseDetails"
-            android:parentActivityName=".Home">
-
-            <!--
-            intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter
-            -->
-        </activity>
+            android:parentActivityName=".Home"/>
     </application>
 
 </manifest>
