@@ -59,6 +59,13 @@
     <string name="call_now">Call Now</string>
     <string name="btn_reviews">Ratings &amp; Reviews</string>
 
+    <!--Home & Nav-->
+    <string name="imageContent">image</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_ads">Ads</string>
+    <string name="nav_expense">Expense Tracker</string>
+    <string name="nav_lgout">Logout</string>
+
     <!--    Expencedashboard-->
     <string name="amount">Enter Amount</string>
     <string name="extitle">Personal Expenses Management</string>
@@ -105,5 +112,16 @@
     <string name="date">Date :</string>
     <string name="historyamount">Amount :</string>
     D<string name="delete">Delete</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 
 </resources>
