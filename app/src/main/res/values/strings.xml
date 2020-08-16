@@ -99,4 +99,11 @@
     <string name="hint1">Enter Your Review Here</string>
     <string name="revRlt">Delete</string>
 
+<!--    trasaction history-->
+
+    <string name="history">Expences History</string>
+    <string name="date">Date :</string>
+    <string name="historyamount">Amount :</string>
+    D<string name="delete">Delete</string>
+
 </resources>
