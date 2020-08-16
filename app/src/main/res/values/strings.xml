@@ -38,4 +38,11 @@
     <string name="editprof">Edit Profile</string>
     <string name="userprofile">User Profile</string>
 
+<!--    trasaction history-->
+
+    <string name="history">Expences History</string>
+    <string name="date">Date :</string>
+    <string name="historyamount">Amount :</string>
+    D<string name="delete">Delete</string>
+
 </resources>
