@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ExpenseDashBoard">
+
+  <ImageButton
+      android:id="@+id/backButton"
+      android:layout_width="71dp"
+      android:layout_height="81dp"
+      android:background="@color/orangered"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/backbtn" />
+
+  <View
+      android:id="@+id/view3"
+      android:layout_width="370dp"
+      android:layout_height="80dp"
+      android:background="@color/orangered"
+      app:layout_constraintEnd_toEndOf="parent"
+      tools:layout_editor_absoluteY="0dp"
+
+      />
+
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="415dp"
+      android:layout_height="102dp"
+      android:layout_marginTop="72dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/view3"
+      app:srcCompat="@drawable/top2" />
+
+  <EditText
+      android:id="@+id/amountinput"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="@string/enteramount"
+      android:inputType="number"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.49"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.454" />
+
+  <Button
+      android:id="@+id/minusamount"
+      android:layout_width="66dp"
+      android:layout_height="68dp"
+      android:layout_marginBottom="8dp"
+      android:background="@drawable/minusbutton"
+      android:text="@string/minusicon"
+      android:textColor="@color/white"
+      android:textSize="30dp"
+      android:clickable="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/Addamount"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.975" />
+
+  <ImageView
+      android:id="@+id/moneyimage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.165"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.456"
+      app:srcCompat="@drawable/moneyimg" />
+
+  <Button
+      android:id="@+id/Addamount"
+      android:layout_width="66dp"
+      android:layout_height="68dp"
+      android:layout_marginStart="24dp"
+      android:layout_marginBottom="8dp"
+      android:background="@drawable/addbutton"
+      android:text="@string/addicon"
+      android:clickable="true"
+      android:textColor="@color/white"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.299"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.975" />
+
+  <TextView
+      android:id="@+id/expensesTitle"
+      android:layout_width="269dp"
+      android:layout_height="63dp"
+      android:text="@string/extitle"
+      android:textAlignment="textEnd"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="@+id/view3"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/backButton"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.529" />
+
+  <EditText
+      android:id="@+id/currentbalance"
+      android:layout_width="348dp"
+      android:layout_height="63dp"
+      android:background="@drawable/currentamount"
+      android:text="@string/currentbalance"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.302" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="57dp"
+      android:layout_height="61dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.98"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.013"
+      app:srcCompat="@drawable/expense" />
+
+  <RadioGroup
+      android:layout_width="122dp"
+      android:layout_height="167dp"
+      android:layout_marginEnd="8dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.889"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/expensesTitle"
+      app:layout_constraintVertical_bias="0.691">
+
+    <RadioButton
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/food" />
+
+    <RadioButton
+        android:id="@+id/transport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transport" />
+
+    <RadioButton
+        android:id="@+id/clothes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cloths" />
+
+    <RadioButton
+        android:id="@+id/Rent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rent" />
+
+    <RadioButton
+        android:id="@+id/bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bill" />
+
+
+  </RadioGroup>
+
+  <androidx.constraintlayout.widget.Guideline
+      android:id="@+id/guideline3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="188dp"
+      android:layout_marginEnd="188dp"
+      android:orientation="vertical"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintGuide_begin="188dp"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <RadioGroup
+      android:layout_width="122dp"
+      android:layout_height="167dp"
+      android:layout_marginStart="8dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.158"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.697">
+
+    <RadioButton
+        android:id="@+id/Sallary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salary" />
+
+    <RadioButton
+        android:id="@+id/intrest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interst" />
+
+    <RadioButton
+        android:id="@+id/Loan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Loan" />
+
+    <RadioButton
+        android:id="@+id/Lend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lending" />
+
+    <RadioButton
+        android:id="@+id/addother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other" />
+  </RadioGroup>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/calender"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:clickable="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.909"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.457"
+      app:srcCompat="@drawable/dateicon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

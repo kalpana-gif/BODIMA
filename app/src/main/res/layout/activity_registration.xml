@@ -4,44 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Registration">
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
-        android:layout_width="263dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toEndOf="@+id/regName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
-
-    <EditText
-        android:id="@+id/editTextTextMultiLine3"
-        android:layout_width="263dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="17dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toEndOf="@+id/regName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
-
-    <EditText
-        android:id="@+id/editTextTextMultiLine4"
+        android:id="@+id/regphoneinput"
         android:layout_width="263dp"
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
@@ -51,58 +18,92 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="phone"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine5"
+        app:layout_constraintBottom_toTopOf="@+id/regemailinput"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toEndOf="@+id/regName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine3" />
+        app:layout_constraintTop_toBottomOf="@+id/regnameinput" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine5"
+        android:id="@+id/regemailinput"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/regpasswordinput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/regName"
+        app:layout_constraintTop_toBottomOf="@+id/regphoneinput" />
+
+    <EditText
+        android:id="@+id/regpasswordinput"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/confirmpwdinput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/regName"
+        app:layout_constraintTop_toBottomOf="@+id/regemailinput" />
+
+    <EditText
+        android:id="@+id/confirmpwdinput"
         android:layout_width="263dp"
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="38dp"
-        android:textSize="18dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:textSize="18dp"
         app:layout_constraintBottom_toTopOf="@+id/regbutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.307"
         app:layout_constraintStart_toEndOf="@+id/regName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine4" />
+        app:layout_constraintTop_toBottomOf="@+id/regpasswordinput" />
 
     <TextView
-        android:id="@+id/phone"
+        android:id="@+id/pwd"
         android:layout_width="93dp"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
-        android:text="@string/phone"
+        android:text="@string/password"
         android:textSize="20dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextMultiLine4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/regpasswordinput"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/address"
-        android:layout_width="93dp"
-        android:layout_height="32dp"
+        android:id="@+id/confirmpassword"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
         android:layout_marginStart="16dp"
-        android:text="@string/address"
+        android:text="@string/confirmpassword"
         android:textSize="20dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextMultiLine5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/confirmpwdinput"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/mail"
+        android:id="@+id/Email"
         android:layout_width="93dp"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
         android:text="@string/mail"
         android:textSize="20dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/regemailinput"
         app:layout_constraintStart_toStartOf="parent" />
 
     <View
@@ -144,21 +145,21 @@
         android:layout_marginStart="16dp"
         android:text="Name:"
         android:textSize="20dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextMultiLine"
+        app:layout_constraintBaseline_toBaselineOf="@+id/regnameinput"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/age"
+        android:id="@+id/phone"
         android:layout_width="93dp"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
-        android:text="Age:"
+        android:text="@string/phone"
         android:textSize="20dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextMultiLine2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/regphoneinput"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/regnameinput"
         android:layout_width="263dp"
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
@@ -170,7 +171,7 @@
         android:inputType="textMultiLine"
         android:textSize="18dp"
         android:textColor="@color/gray"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine2"
+        app:layout_constraintBottom_toTopOf="@+id/regphoneinput"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toEndOf="@+id/regName"

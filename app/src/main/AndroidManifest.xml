@@ -9,11 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".HouseForm" />
         <activity android:name=".VehicleForm" />
         <activity android:name=".LandForm" /> <!-- <activity android:name=".PostAdvertisment"></activity> -->
         <activity android:name=".Registration" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".Registration" />
+        <activity android:name=".ExpenseDashBoard" />
+        <activity android:name=".ExpenseHistory">
+            <!--
+            intent-filter>
+        <activity android:name=".RatingsAndReviews"/>
+        <activity android:name=".AddReview"/>
+        <activity android:name=".Home" />
         <activity android:name=".LoginActivity">
 
             <!--
@@ -48,6 +56,7 @@
         <activity android:name=".AllAds">
 
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -55,8 +64,15 @@
 
 
         </activity>
-
-
+        <activity android:name=".AddHouse" android:parentActivityName=".Home" />
+        <activity android:name=".EditHouseDetails"  android:parentActivityName=".Home"/>
+        <activity android:name=".HouseDetails" android:parentActivityName=".Home"/>
+        <activity
+            android:name=".AddHouse"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".EditHouseDetails"
+            android:parentActivityName=".Home"/>
     </application>
 
 </manifest>

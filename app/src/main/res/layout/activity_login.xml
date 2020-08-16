@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
+    android:background="@color/white"
     tools:ignore="MissingDefaultResource">
 
 
@@ -31,6 +32,13 @@
             android:textColor="@color/white"
             android:textSize="35dp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_gravity="center"
+            android:layout_width="163dp"
+            android:layout_height="78dp"
+            app:srcCompat="@drawable/home" />
 
     </LinearLayout>
 
@@ -143,6 +151,7 @@
         app:srcCompat="@drawable/logopassword" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="411dp"
         android:layout_height="74dp"
         android:background="@color/skyblue"
@@ -157,14 +166,6 @@
             android:background="@color/skyblue"
             app:srcCompat="@drawable/backbtn" />
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="92dp"
-        app:srcCompat="@drawable/home"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="159dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
