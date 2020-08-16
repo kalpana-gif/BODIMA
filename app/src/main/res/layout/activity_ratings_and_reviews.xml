@@ -10,6 +10,9 @@
     android:scrollbarThumbHorizontal="@drawable/custom_label_long"
     tools:context=".RatingsAndReviews">
 
+    <include android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+
     <androidx.cardview.widget.CardView
         android:layout_width="370dp"
         android:layout_height="60dp"
@@ -131,12 +134,6 @@
         android:textSize="30sp"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="78dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView4"

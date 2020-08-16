@@ -126,6 +126,15 @@
     <string name="call_now">Call Now</string>
     <string name="btn_reviews">Ratings &amp; Reviews</string>
 
+    <!--Home & Nav-->
+    <string name="imageContent">image</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_ads">Ads</string>
+    <string name="nav_expense">Expense Tracker</string>
+    <string name="nav_lgout">Logout</string>
+    <string name="nav_draw_open">Open navigation drawer</string>
+    <string name="nav_draw_close">Close navigation drawer</string>
+
     <!--    Expencedashboard-->
     <string name="amount">Enter Amount</string>
     <string name="extitle">Personal Expenses Management</string>
@@ -166,7 +175,7 @@
     <string name="hint1">Enter Your Review Here</string>
     <string name="revRlt">Delete</string>
 
-<!--    trasaction history-->
+    <!--    trasaction history-->
 
     <string name="history">Expences History</string>
     <string name="date">Date :</string>

@@ -6,7 +6,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/wave2"
     android:backgroundTint="@color/lavender"
-    tools:context=".MainActivity">
+    tools:context=".AddReview">
+
+    <include android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
 
     <TextView
         android:id="@+id/textView"
@@ -16,7 +19,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="75dp"
         android:layout_marginEnd="155dp"
         android:text="@string/place"
         android:textSize="30sp"

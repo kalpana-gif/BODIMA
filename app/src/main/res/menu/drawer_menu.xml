@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_ads"
+            android:icon="@drawable/ic_ads"
+            android:title="@string/nav_ads" />
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="@drawable/ic_dollar"
+            android:title="@string/nav_expense" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/nav_lgout" />
+
+        <item
+            android:id="@+id/nav_h1"
+            android:icon="@drawable/ic_logout"
+            android:title="Add House" />
+
+        <item
+            android:id="@+id/nav_h2"
+            android:icon="@drawable/ic_logout"
+            android:title="edit House" />
+
+        <item
+            android:id="@+id/nav_h3"
+            android:icon="@drawable/ic_logout"
+            android:title="house details" />
+    </group>
+</menu>
