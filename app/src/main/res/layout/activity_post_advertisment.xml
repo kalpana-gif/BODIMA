@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ad_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ad_background"
+    tools:context=".PostAdvertisment">
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="434dp"
+        android:layout_height="246dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <TextView
+        android:id="@+id/select_category"
+        android:layout_width="281dp"
+        android:layout_height="57dp"
+        android:text="@string/select_category"
+        android:textAlignment="center"
+        android:textColor="@color/ghostwhite"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+
+    <Button
+        android:id="@+id/Land_btn"
+        android:layout_width="177dp"
+        android:layout_height="56dp"
+        android:background="@color/antiquewhite"
+        android:drawableLeft="@drawable/ic_baseline_add_location_24"
+        android:drawableTop="@drawable/button_outline"
+        android:drawableBottom="@drawable/button_outline"
+        android:includeFontPadding="true"
+        android:outlineProvider="paddedBounds"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:singleLine="false"
+        android:text="@string/Land_btn"
+        android:textColor="#554A4A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <Button
+        android:id="@+id/Vehi_btn"
+        android:layout_width="179dp"
+        android:layout_height="59dp"
+        android:background="@color/antiquewhite"
+        android:drawableLeft="@drawable/ic_baseline_directions_car_24"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/Vehi_btn"
+        android:textColor="#5A4F4F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798" />
+
+    <Button
+        android:id="@+id/House_btn"
+        android:layout_width="177dp"
+        android:layout_height="62dp"
+        android:background="@color/antiquewhite"
+        android:drawableLeft="@drawable/ic_baseline_house_24"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/House_btn"
+        android:textColor="#774C4C"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <TextView
+        android:id="@+id/postAd_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Post Your Advertisment HERE"
+        android:textColor="@color/ghostwhite"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

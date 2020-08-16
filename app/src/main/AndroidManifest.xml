@@ -9,13 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        
         <activity android:name=".ListView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>      
+        <activity android:name=".HouseForm" />
+        <activity android:name=".VehicleForm" />
+        <activity android:name=".LandForm" /> <!-- <activity android:name=".PostAdvertisment"></activity> -->
         <activity android:name=".LoginActivity" />
         <activity android:name=".UserProfile" />
         <activity android:name=".Registration" />
@@ -23,6 +27,9 @@
         <activity android:name=".ExpenseHistory" />
         <activity android:name=".RatingsAndReviews" />
         <activity android:name=".AddReview" />
+        <activity android:name=".PostAdvertisment"/>
+        <activity android:name=".MyAdvertisments"/>
+        <activity android:name=".AllAds"/>
     </application>
 
 </manifest>
