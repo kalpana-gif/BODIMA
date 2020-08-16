@@ -6,7 +6,7 @@
     <string name="pwdhint">Enter Your Password..</string>
     <string name="signup">Sing Up Here</string>
 
-<!--    Registration Strings-->
+    <!--    Registration Strings-->
 
     <string name="name">Name :</string>
     <string name="RegHeader">Register Here!</string>
@@ -15,4 +15,71 @@
     <string name="mail">E-mail :</string>
     <string name="phone">Phone :</string>
     <string name="loaction">Current Loctation </string>
+
+    <!-- advertisment strings-->
+    <string name="Land_btn">Land</string>
+    <string name="House_btn">Houses</string>
+    <string name="Vehi_btn">Vehicles</string>
+    <string name="category">Category :</string>
+    <string name="location">Location :</string>
+    <string name="add_photo_btn">+ Add Photos</string>
+    <string name="landSize">Land Size :</string>
+    <string name="title">Title :</string>
+    <string name="description">Description :</string>
+    <string name="price">Price :</string>
+    <string name="contact_details">Contact Details :</string>
+    <string name="post_btn">POST AD</string>
+    <string name="type">Type :</string>
+    <string name="brand">Brand :</string>
+    <string name="model">Model :</string>
+    <string name="condition">Condition :</string>
+    <string name="fuel">Fuel :</string>
+    <string-array name="type_id">
+        <item>Car</item>
+        <item>Van</item>
+        <item>Bike</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="condition_id">
+        <item>New</item>
+        <item>Old</item>
+        <item>Used</item>
+    </string-array>
+    <string-array name="fuel_id">
+        <item>Petrol</item>
+        <item>Diesel</item>
+    </string-array>
+    <string name="beds">  Beds :</string>
+    <string name="baths"> Baths : </string>
+
+    <string-array name="bed_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+
+    <string-array name="bath_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3+</item>
+    </string-array>
+
+    <string name="postAd_tag">Post Your Advertisment</string>
+    <string name="select_category">Select a Category</string>
+    <string name="view_btn">View</string>
+    <string name="showAll_ads">Show All Advertisments</string>
+    <string name="update_btn">Update Details</string>
+    <string name="delete_btn">Delete Ad</string>
+    <string name="previous_btn">Previous</string>
+    <string name="next_btn">Next</string>
+    <string name="my_ads">My Advertisment</string>
+    <string name="house">House</string>
+    <string name="land">Land</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="colombo">Colombo</string>
+    <string name="description_hint">Write a Description</string>
+    <string name="price_hint">Rs.</string>
+
 </resources>
