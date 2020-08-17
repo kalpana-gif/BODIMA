@@ -12,8 +12,52 @@
     <string name="address">Address :</string>
     <string name="mail">E-mail :</string>
     <string name="phone">Phone :</string>
-    <string name="password">password :</string>
-    <string name="confirmpassword">Confirm password :</string>
+    <string name="loaction">Current Location </string>
+
+    <!--Add House Strings-->
+    <string name="addHouse">Add House</string>
+    <string name="userlabel">Username</string>
+    <string name="username">Useruser02155</string>
+    <string name="datelabel">Date</string>
+    <string name="currentdate">20 Aug 2020</string>
+    <string name="title_label">Title</string>
+    <string name="title">max 20 characters</string>
+    <string name="description_label">Description</string>
+    <string name="desc_txt">Write a description here… (max 200 characters)</string>
+    <string name="amount_rs">Rs.</string>
+    <string name="amount_txt">0,000</string>
+    <string name="amount_month">/month</string>
+    <string name="beds_label">Beds</string>
+    <string name="beds_num">0</string>
+    <string name="baths_label">Baths</string>
+    <string name="baths_num">0</string>
+    <string name="phone_house">+94111111111</string>
+    <string name="phone_labele">Phone Number</string>
+    <string name="city_label">City</string>
+    <string name="city">Enter city here</string>
+    <string name="address_house">Address</string>
+    <string name="address_hint">Enter address here…</string>
+    <string name="btnImg">Add Images</string>
+    <string name="btnLocation">Add Location</string>
+    <string name="btnSave">Save</string>
+
+    <!--Edit House Strings-->
+    <string name="updateLocation">Edit Location</string>
+    <string name="btnUpdate">Update Details</string>
+
+    <!--HouseDetails String-->
+    <string name="imgCount">3/3</string>
+    <string name="postDate">posted on 20th August 2020</string>
+    <string name="price">Rs. 0, 000 / month</string>
+    <string name="postUser">for rent by Useruser02155</string>
+    <string name="details">Room includes basic furniture such as a bed, table and chair(s). Also a kitchen area is available. Bathroom/Toilet is separate but located right next to the room.</string>
+    <string name="beds_no">2</string>
+    <string name="baths_no">2</string>
+    <string name="addressFull">No.000, Lorem Ipsum, dolor sit amet.</string>
+    <string name="city_name">Colombo</string>
+    <string name="title_display">Room for Rent</string>
+    <string name="call_now">Call Now</string>
+    <string name="btn_reviews">Ratings &amp; Reviews</string>
 
     <!--    Expencedashboard-->
     <string name="amount">Enter Amount</string>
@@ -37,6 +81,23 @@
     <!--    userprofile-->
     <string name="editprof">Edit Profile</string>
     <string name="userprofile">User Profile</string>
+    <string name="password">password :</string>
+    <string name="confirmpassword">Confirm password :</string>
+
+    <!--    RatingsAndReviews-->
+    <string name="place">The Place Name</string>
+    <string name="allRev">All Reviews</string>
+    <string name="name1">John</string>
+    <string name="name2">Pitty</string>
+    <string name="name3">Billy</string>
+    <string name="rate">4.0</string>
+    <string name="warning">*please note that your reviews are visible for all users</string>
+    <string name="button">POST</string>
+    <string name="rev1">This is a good place to live</string>
+    <string name="rev2">Good service. Thank you!</string>
+    <string name="rev3">calm and peaceful place. better to learners.</string>
+    <string name="hint1">Enter Your Review Here</string>
+    <string name="revRlt">Delete</string>
 
 <!--    trasaction history-->
 
