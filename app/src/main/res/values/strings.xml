@@ -12,7 +12,7 @@
     <string name="address">Address :</string>
     <string name="mail">E-mail :</string>
     <string name="phone">Phone :</string>
-    <string name="loaction">Current Loctation </string>
+    <string name="regloaction">Current Loctation </string>
 
     <!-- advertisment strings-->
     <string name="Land_btn">Land</string>
@@ -22,9 +22,9 @@
     <string name="location">Location :</string>
     <string name="add_photo_btn">+ Add Photos</string>
     <string name="landSize">Land Size :</string>
-    <string name="title">Title :</string>
+    <string name="adtitle">Title :</string>
     <string name="description">Description :</string>
-    <string name="price">Price :</string>
+    <string name="adprice">Price :</string>
     <string name="contact_details">Contact Details :</string>
     <string name="post_btn">POST AD</string>
     <string name="type">Type :</string>
