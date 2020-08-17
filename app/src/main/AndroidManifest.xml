@@ -12,8 +12,8 @@
         <activity android:name=".UserProfile" />
         <activity android:name=".Registration" />
         <activity android:name=".ExpenseDashBoard" />
-        <activity android:name=".ExpenseHistory">
-            <!--
+        <activity android:name=".ExpenseHistory"/>
+
             intent-filter>
         <activity android:name=".RatingsAndReviews"/>
         <activity android:name=".AddReview"/>
